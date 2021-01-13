@@ -1,0 +1,26 @@
+{
+  "name": "@militia/core",
+  "version": "0.1.0",
+  "description": "Core contracts for the Militia protocol",
+  "author": "Militia",
+  "license": "MIT",
+  "scripts": {
+    "lint": "prettier --write --print-width=120 ./src/**/*.sol ./test/**/*.ts",
+    "build": "waffle waffle.json",
+    "test": "mocha -r ts-node/register test/**/*.spec.ts",
+    "flatten": "waffle flatten",
+    "clean": "rm -rf build flatten"
+  },
+  "dependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.2.1",
+    "mocha": "^8.2.1",
+    "prettier": "^2.2.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.2",
+    "solc": "^0.8.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}

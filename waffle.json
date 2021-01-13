@@ -1,0 +1,12 @@
+{
+  "sourceDirectory": "./src",
+  "outputDirectory": "./build",
+  "compilerVersion": "./node_modules/solc",
+  "compilerOptions": {
+    "evmVersion": "istanbul",
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000000
+    }
+  }
+}
