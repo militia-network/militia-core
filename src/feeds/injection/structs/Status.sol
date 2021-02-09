@@ -3,6 +3,5 @@ pragma solidity ^0.8.0;
 
 struct Status {
     bool created;
-    bool disabled;
-    bool empty;
+    bool enabled;
 }

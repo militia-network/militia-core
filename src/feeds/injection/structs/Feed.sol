@@ -5,10 +5,9 @@ import "./Permissions.sol";
 import "./Status.sol";
 import "./Content.sol";
 
-struct Definition {
-    bytes32 id;
+struct Feed {
+    Status status;
     string description;
     Permissions permissions;
-    Status status;
     Content content;
 }
